@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: rgb(229, 255, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
 .navbar ul{
@@ -36,11 +36,11 @@ html{
 
 body{
   margin:0;
-  background-color: hotpink;
+  background-color: lightpink;
 /*  coolors.co  */
 }
 img{
-  max-width:100%;
+  max-width: 100%;
   height:auto
 }
   /* mobile first approach */
