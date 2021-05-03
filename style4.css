@@ -1,0 +1,42 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+#img1{
+    background-image: url(https://www.mango.org/wp-content/uploads/2017/10/how-to-choose-mango.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    
+}
+#img2{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hapus_Mango.jpg/220px-Hapus_Mango.jpg);
+    background-size: cover;
+    position: relative;
+    top: 900px;
+    opacity: 75%;
+}
+#img3{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fb/Carabao_mangoes_%28Philippines%29.jpg);
+    background-size: cover;
+    position: relative;
+    top:500px;
+}
+h1{
+    color: olivedrab;
+    text-align: center;
+}
+.container{
+    width:min(991px,80%);
+    margin: auto;
+    background-color: navajowhite;
+}
+.parallax{
+    background-image: url(Raffles-Meradhoo-Resort.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
