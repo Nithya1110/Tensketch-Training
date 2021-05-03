@@ -68,3 +68,15 @@ flex-direction:row;
   justify-content:center
 }
 }
+table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-color: royalblue;
+  width: 100%;
+}
+td, th{
+  border: silver;
+  border-width: 1px;
+  padding: 5px;
+  text-align: center;
+}
