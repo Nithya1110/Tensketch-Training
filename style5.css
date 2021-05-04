@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+th, td {
+    text-align: center;
+    padding: 10px;
+  }
+tr:nth-child(even){background-color: #f2f2f2}
+.container{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.responsiveiframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    height: 75%;
+    border: none;
+}
+.bgimage{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    background-image:url(https://www.tusktravel.com/blog/wp-content/uploads/2021/01/10-Beautiful-And-Best-Places-To-Visit-Kasauli.jpg);
+    background-blend-mode:overlay;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover
+}
