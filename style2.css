@@ -1,16 +1,16 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 2px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .navbar ul{
-    height: 25vh;
+    height: 10vh;
     column-count: 3;
     list-style: none;
     background-color: darkolivegreen;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    margin: 1rem;
+    padding: 1rem;
 }
 .navbar a{
     text-decoration: none;
@@ -25,4 +25,60 @@ body{
 }
 .navbar a:hover{
     background: chocolate;
+}
+#sample1
+{
+    background-color: rosybrown;
+    height:75vh;
+    display: grid;
+    place-items: center;
+    min-width: auto;
+}
+#sample2
+{
+    background-color: palevioletred;
+    height:110vh;
+    display: grid;
+    place-items: center;
+    min-width: auto;
+}
+#sample3
+{
+    background-color:lightpink;
+    height:100vh;
+    display: grid;
+    place-items: center;
+    min-width: auto;
+}
+.container
+{
+    height: 100vh;
+    margin:auto;
+    width: 100%;
+    padding:3rem;
+    display:flex;
+}
+.col1{
+    margin:1rem;
+    display: grid;
+    place-items: center;
+}
+.col2{
+    margin:1rem;
+    display: grid;
+    place-items: center;
+}
+.col3{
+    margin:1rem;
+    display: grid;
+    place-items: center;
+}
+.col4{
+    margin:1rem;
+    display: grid;
+    place-items: center;
+}
+h1{
+    background-color: rosybrown;
+    text-align: center;
 }
